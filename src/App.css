@@ -45,8 +45,6 @@
     border-color: #007bff; /* Change border color on focus */
   }
   
-/* App.css */
-
 .task-list {
     list-style-type: disc; /* Add bullet sign */
     padding-left: 20px; /* Adjust left padding for bullet alignment */
