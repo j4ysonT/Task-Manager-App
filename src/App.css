@@ -1,0 +1,66 @@
+/* App.css */
+
+.app-container {
+    background-color: #f5f5f5; /* Light gray background color */
+    padding: 20px; /* Add some padding around the content */
+    border-radius: 20px; /* Add rounded corners */
+    width: 70%; /* Limit the width */
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  
+  .app-title {
+    color: #333; /* Dark gray title color */
+    text-align: center;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Add padding */
+    margin-left: 10px; /* Add margin between buttons */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    padding: 8px; /* Add padding */
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 10px; /* Add margin below input */
+    width: 100%; /* Make input fill its container */
+    margin-right: 10px; /* Add margin to the right of input */
+    width: calc(100% - 20px); /* Make input fill its container minus padding and margin */
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Change border color on focus */
+  }
+  
+/* App.css */
+
+.task-list {
+    list-style-type: disc; /* Add bullet sign */
+    padding-left: 20px; /* Adjust left padding for bullet alignment */
+  }
+  
+  .task-item {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically */
+    padding: 8px; /* Add padding to each task item */
+    margin-bottom: 8px; /* Add margin between task items */
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  .task-item button {
+    margin-left: 10px; /* Add margin between buttons */
+  }
+  
